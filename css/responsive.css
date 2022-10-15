@@ -53,7 +53,7 @@
     display: block !important;
   }
   #modal_video iframe{
-    width: 340px;
+    width: 320px;
     height: 240px;
   }
   #modal_video-close{
@@ -82,7 +82,8 @@
     flex-direction: column-reverse;
     align-items: flex-start;
     padding-bottom: 16px;
-    height: 75%;
+    height: 90%;
+    background: transparent;
   }
   .slider-group {
     width: 85vw;
@@ -90,10 +91,14 @@
   .meetOur_slider-text {
     padding-left: 16px;
   }
+  .meetOur_slider-text p {
+    padding-bottom: 16px;
+  }
   .meetOur_slider-card {
     width: 85vw;
     height: 312px;
     padding-right: 0 !important;
+    background: rgba(113, 213, 171, 0.2);
   }
   .meetOur_slider-item {
     padding-top: 40px;
