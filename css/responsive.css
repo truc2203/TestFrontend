@@ -1,6 +1,6 @@
 @media screen and (max-width: 576px) {
   .recruit_wrapper {
-    height: 1850px;
+    height: 2077px;
   }
   .recruit_info {
     flex-direction: column;
@@ -32,6 +32,11 @@
   }
   .recruit_video {
     padding-top: 32px;
+    text-align: center;
+  }
+  .btn_openModal{
+    margin-bottom: 16px;
+    display: none;
   }
   .left-card img {
     padding-bottom: 16px;
@@ -43,8 +48,15 @@
   }
   #modal_video {
     left: 0;
+    position: unset;
+    transform: translateX(0);
+    display: block !important;
   }
-  #modal_video iframe {
+  #modal_video iframe{
+    width: 340px;
+    height: 240px;
+  }
+  #modal_video-close{
     display: none;
   }
 

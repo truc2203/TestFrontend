@@ -111,11 +111,21 @@
 .recruit_video {
   padding-top: 40px;
 }
+.recruit_video span{
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+text-transform: capitalize;
+color: #243D30;
+}
 #modal_video {
-  visibility: hidden;
   position: absolute;
+  display: none;
   top: 120px;
-  left: 20%;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 999;
 }
 

@@ -21,7 +21,7 @@ header {
   background: transparent;
 }
 
-article,
+
 footer,
 header,
 section {
@@ -45,21 +45,3 @@ a {
   text-decoration: none;
 }
 
-.w-12 {
-  width: 100%;
-}
-
-.w-8{
-  width: 66.67%;
-}
-.w-6 {
-  width: 50%;
-}
-
-.w-4 {
-  width: 33.33%;
-}
-
-.w-3 {
-  width: 25%;
-}
