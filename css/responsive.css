@@ -1,0 +1,122 @@
+@media screen and (max-width: 576px) {
+  .recruit_wrapper {
+    height: 1850px;
+  }
+  .recruit_info {
+    flex-direction: column;
+  }
+  .recruit_heading {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .recruit_tab a {
+    width: 172px;
+  }
+  .info-left {
+    width: 100%;
+    padding-bottom: 56px;
+  }
+  .info-right {
+    width: 100%;
+  }
+  .left-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-card {
+    width: 75%;
+    padding-bottom: 72px;
+  }
+  .left-card:last-child {
+    padding-bottom: 0;
+  }
+  .recruit_video {
+    padding-top: 32px;
+  }
+  .left-card img {
+    padding-bottom: 16px;
+  }
+  .right-box {
+    padding-left: 14px;
+    padding-top: 36px;
+    padding-bottom: 40px;
+  }
+  #modal_video {
+    left: 0;
+  }
+  #modal_video iframe {
+    display: none;
+  }
+
+  .meetOur_wrapper {
+    height: 580px;
+  }
+  .meetOur_heading h1 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .meetOur_subHeading p {
+    width: 343px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .meetOur_slider-img {
+    width: 86px;
+    height: 86px;
+    top: 60px;
+    left: 16px;
+  }
+  .meetOur_slider-quote {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding-bottom: 16px;
+    height: 75%;
+  }
+  .slider-group {
+    width: 85vw;
+  }
+  .meetOur_slider-text {
+    padding-left: 16px;
+  }
+  .meetOur_slider-card {
+    width: 85vw;
+    height: 312px;
+    padding-right: 0 !important;
+  }
+  .meetOur_slider-item {
+    padding-top: 40px;
+  }
+  .meetOur_slider-changeSlide button {
+    width: 36px;
+    height: 8px;
+    margin: 0 6px;
+  }
+  .mobile-slider {
+    display: block;
+  }
+  .faq_wrapper {
+    height: 1160px;
+    padding: 0 16px;
+  }
+  .faq_info {
+    flex-direction: column-reverse;
+  }
+  .info-question {
+    width: 100%;
+    padding-left: 16px;
+  }
+  .info-pic{
+    width: 100%;
+    height: 30%;
+  }
+  .question-heading {
+    font-size: 24px;
+    line-height: 34px;
+    padding-bottom: 0;
+  }
+  .question-questions button {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 24px 0;
+  }
+}

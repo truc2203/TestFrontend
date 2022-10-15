@@ -1,0 +1,65 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+footer,
+header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+article,
+footer,
+header,
+section {
+  display: block;
+}
+
+html {
+  font-family: "Kanit", sans-serif;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  text-decoration: none;
+}
+
+.w-12 {
+  width: 100%;
+}
+
+.w-8{
+  width: 66.67%;
+}
+.w-6 {
+  width: 50%;
+}
+
+.w-4 {
+  width: 33.33%;
+}
+
+.w-3 {
+  width: 25%;
+}
